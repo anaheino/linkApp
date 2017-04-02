@@ -1,0 +1,16 @@
+{% extends "templates/base/base.html" %}
+
+{% block content %}
+<h1 class="login_error" >Sign In</h1>
+<form action="" method="post" name="login">
+	{{form.hidden_tag()}}
+	<p>
+	Please enter your OpenID:<br>
+	{{form.openid(size=80)}}<br>
+	{% for error in form.openid.errors %}
+	  <span class="login_error">
+	</p>
+	<p>{{ form.remember_me }} Remember Me</p>
+	<p><input type="subit" value="Sign in"></p>
+</form>
+{% endblock %}
