@@ -1,0 +1,11 @@
+{
+  "name": "linkki",
+  "version": "1.0.0",
+  "description": "AngularJS+Flask+SQL application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-command"
+  },
+  "author": "",
+  "license": "ISC"
+}
